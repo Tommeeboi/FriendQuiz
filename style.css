@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(120, 100%, 40%);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+/* i have no idea why i created this ruleset */
+.blok {
+    display: block;
+}
+
+.sucks {
+    font-size: 15px;
+    opacity: 0.75;
+}
+
+.titol {
+    font-size: 100px;
+}
+
+.subheader {
+    font-size: 50px;
+}
+
+.fiftyMargin {
+    margin-bottom: 50px;
+}
+
+/* so specific. just like your- */
+
+.twentythree {
+    font-size: 23px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.propuh {
+    border: 3px solid #000;
+    background-color: #000;
+}
+
+.text {
+    display: inline;
+    position: relative;
+    font-size: 25px;
+    top: 3px;
+}
+
+.input {
+    display: inline;
+}
+
+.twentyfive {
+    font-size: 25px;
+}
+
+.why {
+    display: none;
+}
+
+#submit {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: hsl(39, 100%, 60%);
+    border: 5px solid #000;
+    border-radius: 10px;
+    width: 175px;
+    cursor: pointer;
+    transition: background-color 250ms 100ms;
+}
+
+#submit:hover {
+    background-color: hsl(39, 100%, 75%);
+}
+
+.copyright {
+    display: inline;
+    font-size: 25px;
+    float: left;
+}
+
+.proud {
+    display: inline;
+    font-size: 25px;
+    float: right;
+}
+
+/* Horribly designed mobile optimization */
+@media screen and (max-width: 800px) {
+    .text {
+        display: block;
+    }
+
+    .input {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 25px;
+    }
+
+    .copyright {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+
+    .proud {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+
+    .twentyfive {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .why {
+        display: block;
+    }
+}
