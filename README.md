@@ -29,4 +29,6 @@ v1.0: Initial Release
 
 v1.0.1: Changed LICENSE.txt to LICENSE and updated README.md
 
-v1.1 (LATEST): Added Reset button, and a popup to go with it! This changed index.html, style.css, and response.js
+v1.1: Added Reset button, and a popup to go with it! This changed index.html, style.css, and response.js
+
+v1.1.1 (LATEST): Added comments to the new response.js stuff

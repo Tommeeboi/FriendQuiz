@@ -60,8 +60,10 @@ submit.onclick = function() {
     }
 }
 
+// Variable for deciding if you wanna reset or not
 let decision = 2;
 
+// if you click the button that says yes, it will obey you and reset :0
 yes.onclick = function() {
     decision = 1;
     name.value = '';
@@ -79,16 +81,19 @@ yes.onclick = function() {
     warning.style.display = "none";
 }
 
+// if you click the button that says no, you scare off the popup and it forgets to do anything
 no.onclick = function() {
     decision = 0;
     warning.style.display = "none";
 }
 
+// If you click the reset button, it displays the popup
 reset.onclick = function() {
     warning.style.display = "block";
 }
 
 // oncontextmenu is the event used for right clicks
+// If you right click the reset button, it cancels the default popup menu and instead resets everything :)
 reset.oncontextmenu = function () {
     name.value = '';
     met.value = '';
