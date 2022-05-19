@@ -23,3 +23,10 @@ Q. Can I add custom values?
 A. Not yet. Maybe in the future though ;)
 
 And with that I've probably made enough people puke because of my bad css already.
+
+## Releases
+v1.0: Initial Release
+
+v1.0.1: Changed LICENSE.txt to LICENSE and updated README.md
+
+v1.1 (LATEST): Added Reset button, and a popup to go with it! This changed index.html, style.css, and response.js

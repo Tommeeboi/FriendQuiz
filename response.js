@@ -27,8 +27,16 @@ const hangOutR = document.getElementById("hangOutR");
 const cloceR = document.getElementById("closeR");
 const looksR = document.getElementById("looksR");
 
-// submit button
+// submit and reset button
 const submit = document.getElementById("submit");
+const reset = document.getElementById("reset");
+
+// yes and no buttons on reset popup
+const yessir = document.getElementById("yes");
+const nope = document.getElementById("no");
+
+// reset warning
+const warning = document.getElementById("warning");
 
 // big boi if statement
 submit.onclick = function() {
@@ -50,4 +58,50 @@ submit.onclick = function() {
         cloceR.innerText = `Closeness Rating: ${cloce.value}`;
         looksR.innerText = `Looks Rating😏: ${looks.value}`;
     }
+}
+
+let decision = 2;
+
+yes.onclick = function() {
+    decision = 1;
+    name.value = '';
+    met.value = '';
+    first.value = '';
+    current.value = '';
+    they.value = '';
+    future.value = '';
+    trust.value = '';
+    hate.value = '';
+    secrets.value = '';
+    hangOut.value = '';
+    cloce.value = '';
+    looks.value = '';
+    warning.style.display = "none";
+}
+
+no.onclick = function() {
+    decision = 0;
+    warning.style.display = "none";
+}
+
+reset.onclick = function() {
+    warning.style.display = "block";
+}
+
+// oncontextmenu is the event used for right clicks
+reset.oncontextmenu = function () {
+    name.value = '';
+    met.value = '';
+    first.value = '';
+    current.value = '';
+    they.value = '';
+    future.value = '';
+    trust.value = '';
+    hate.value = '';
+    secrets.value = '';
+    hangOut.value = '';
+    cloce.value = '';
+    looks.value = '';
+    // disables normal right click menu
+    return false;
 }
