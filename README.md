@@ -9,14 +9,14 @@ If you want to use this for yourself (for some reason), do this:
 
 1. Download this repository (click Code, then Download ZIP)
 2. Unzip/extract it
-3. Inside the unzipped copy, open index.html
+3. Inside the unzipped copy, open index.html (in your browser)
 
 Unfortunately, the site won't function properly on mobile by downloading it.
 
 ## FAQ
 Q. The site has a white background, an ugly font, and it doesn't work properly!
 
-A. Make sure you've unzipped the website, and that you're viewing it inside of the unzipped version. Also, this will always happen on mobile, that's why I said it doesn't function properly.
+A. Make sure you've unzipped the website folder, and that you're viewing it inside of the unzipped version. Also, this will always happen on mobile, that's why I said it doesn't function properly.
 
 Q. Can I add custom values?
 
